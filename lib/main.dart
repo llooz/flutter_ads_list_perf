@@ -6,7 +6,6 @@ import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'my_ad.dart';
 
 void main() {
-  AdWidget.optOutOfVisibilityDetectorWorkaround = true;
   WidgetsFlutterBinding.ensureInitialized();
   runApp(const MyApp());
 }
